@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nexus — Responsive Navbar</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;700&family=DM+Sans:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ── NAVBAR ── -->
+  <nav id="mainNav">
+    <div class="nav-inner">
+
+      <!-- Logo -->
+      <a class="nav-logo" href="#">
+        <div class="logo-mark">N</div>
+        <span class="logo-text">Nexus</span>
+      </a>
+
+      <!-- Desktop Links -->
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#" class="active">Home</a></li>
+        <li><a href="#">Products</a></li>
+        <li><a href="#">Docs</a></li>
+        <li><a href="#">Pricing</a></li>
+        <li><a href="#">Blog</a></li>
+      </ul>
+
+      <!-- Desktop Actions -->
+      <div class="nav-actions" id="navActions">
+        <button class="btn-ghost">Sign in</button>
+        <button class="btn-primary">Get started</button>
+      </div>
+
+      <!-- Hamburger Button -->
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+    </div>
+  </nav>
+
+  <!-- ── MOBILE MENU ── -->
+  <div class="mobile-menu" id="mobileMenu" aria-hidden="true">
+    <div class="mobile-menu-inner">
+      <a href="#" class="active">Home</a>
+      <a href="#">Products</a>
+      <a href="#">Docs</a>
+      <a href="#">Pricing</a>
+      <a href="#">Blog</a>
+      <div class="mobile-divider"></div>
+      <div class="mobile-actions">
+        <button class="btn-ghost">Sign in</button>
+        <button class="btn-primary">Get started</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ── HERO (demo content) ── -->
+  <section class="hero">
+    <div class="hero-badge">Responsive Navigation</div>
+    <h1 class="hero-title">Beautiful by <span>default</span></h1>
+    <p class="hero-sub">Resize your browser window to see the mobile hamburger menu in action.</p>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
