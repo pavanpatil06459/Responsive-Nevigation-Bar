@@ -2,8 +2,8 @@
 
 > A sleek, accessible, mobile-first navigation bar built with pure HTML, CSS, and JavaScript.
 
-🔗 **Live Demo:** https://responsive-nevigation-bar.vercel.app/
-💻 **GitHub Repo:** https://github.com/pavanpatil06459/Responsive-Nevigation-Bar
+🔗 Live Demo: https://responsive-nevigation-bar.vercel.app/
+💻 GitHub Repo: https://github.com/pavanpatil06459/Responsive-Nevigation-Bar
 
 ---
 
